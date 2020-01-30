@@ -1,0 +1,5 @@
+Bugs Vikingos
+Loadin al iniciar sesion /**completado
+modal despues de la primera transaccion ///*completado 
+socio a asignar vehiculos al estar vacio aparece formulario de transaccion, ///*completado
+	fecha no cambia despues fde hacer la primera transaccion ///*completado

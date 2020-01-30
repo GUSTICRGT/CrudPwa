@@ -1,0 +1,48 @@
+.MuiAppBar-colorPrimary {
+    color: #fff !important;
+    background-color: #3f51b5 !important;
+}
+.MuiAppBar-positionStatic {
+    position: static !important;
+}
+.MuiAppBar-root {
+    width: 100% !important;
+    display: flex !important;
+    z-index: 1100 !important;
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+    flex-direction: column !important;
+}
+.MuiPaper-elevation4 {
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12) !important;
+}
+
+/* boton */
+
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: none;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  -moz-user-select: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}

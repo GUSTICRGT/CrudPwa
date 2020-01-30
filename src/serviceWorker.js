@@ -52,12 +52,17 @@ export function register(config) {
       }
     });
   }
+  else
+  {
+    // console.warn('wont to register sw. Current env.', process.env.NODE_ENV);
+  }
 }
 
 function registerValidSW(swUrl, config) {
   navigator.serviceWorker
     .register(swUrl)
     .then(registration => {
+      console.log(" sw esta registrado");
       registration.onupdatefound = () => {
         const installingWorker = registration.installing;
         if (installingWorker == null) {

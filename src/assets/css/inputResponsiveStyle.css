@@ -1,0 +1,18 @@
+
+@media only screen and (max-width: 500px) {
+    .inputPasswordResponsive {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .inputPasswordResponsive {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .inputPasswordResponsive {
+        width: 78%;
+    }
+}
